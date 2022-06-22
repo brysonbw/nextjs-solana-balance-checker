@@ -1,4 +1,7 @@
 # Solana Balance Checker
+- Anonymous users can input pubKey and read their SOL balance
+
+## Technologies
 - NextJS
 - React
 - HTML
