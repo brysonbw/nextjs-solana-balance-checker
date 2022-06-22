@@ -40,9 +40,9 @@ const Home: NextPage = () => {
       <p className="text-2xl">
           Check your solana balance
         </p>
-        <p>*Devnet network*</p>
+        <p>*Devnet Network*</p>
         <AddressForm handler={addressSubmittedHandler} clearAddressAndBal={clearAddressAndBal}  />
-        <div>
+        <div className='md:my-0 my-7'>
         <p className='mb-3'>{`Address: ${address}`}</p>
         <p>{`Balance: ${balance} SOL`}</p>
         </div>
